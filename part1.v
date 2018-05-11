@@ -23,8 +23,7 @@ module part1 (CLOCK_50, CLOCK2_50, KEY, I2C_SCLK, I2C_SDAT, AUD_XCK,
 	reg [23:0] outputR;
 	reg [24:0] delayedL;
 	reg [24:0] delayedR;
-	reg [23:0] L;
-	reg [23:0] R;
+
 	
 	//Finite Impulse Response (FIR) filter
   
